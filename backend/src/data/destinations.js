@@ -1,0 +1,103 @@
+/**
+ * Destination Database
+ * Core destinations with base pricing and metadata
+ */
+
+module.exports = [
+  {
+    id: 'thailand-phuket',
+    country: 'Thailand',
+    city: 'Phuket',
+    baseCost: 1200,
+    peakCost: 2030,
+    region: 'Southeast Asia',
+  },
+  {
+    id: 'portugal-lisbon',
+    country: 'Portugal',
+    city: 'Lisbon',
+    baseCost: 900,
+    peakCost: 1650,
+    region: 'Southern Europe',
+  },
+  {
+    id: 'greece-athens',
+    country: 'Greece',
+    city: 'Athens',
+    baseCost: 1100,
+    peakCost: 1950,
+    region: 'Southern Europe',
+  },
+  {
+    id: 'spain-barcelona',
+    country: 'Spain',
+    city: 'Barcelona',
+    baseCost: 950,
+    peakCost: 1750,
+    region: 'Southern Europe',
+  },
+  {
+    id: 'morocco-marrakech',
+    country: 'Morocco',
+    city: 'Marrakech',
+    baseCost: 850,
+    peakCost: 1450,
+    region: 'North Africa',
+  },
+  {
+    id: 'italy-rome',
+    country: 'Italy',
+    city: 'Rome',
+    baseCost: 1150,
+    peakCost: 2100,
+    region: 'Southern Europe',
+  },
+  {
+    id: 'turkey-istanbul',
+    country: 'Turkey',
+    city: 'Istanbul',
+    baseCost: 800,
+    peakCost: 1400,
+    region: 'Middle East',
+  },
+  {
+    id: 'croatia-dubrovnik',
+    country: 'Croatia',
+    city: 'Dubrovnik',
+    baseCost: 1000,
+    peakCost: 1850,
+    region: 'Eastern Europe',
+  },
+  {
+    id: 'mexico-cancun',
+    country: 'Mexico',
+    city: 'Cancun',
+    baseCost: 1100,
+    peakCost: 1900,
+    region: 'Central America',
+  },
+  {
+    id: 'egypt-cairo',
+    country: 'Egypt',
+    city: 'Cairo',
+    baseCost: 950,
+    peakCost: 1600,
+    region: 'North Africa',
+  },
+  {
+    id: 'vietnam-hanoi',
+    country: 'Vietnam',
+    city: 'Hanoi',
+    baseCost: 1050,
+    peakCost: 1750,
+    region: 'Southeast Asia',
+  },
+  {
+    id: 'iceland-reykjavik',
+    country: 'Iceland',
+    city: 'Reykjavik',
+    baseCost: 1400,
+    peakCost: 2400,
+    region: 'Northern Europe',
+  },
+];
